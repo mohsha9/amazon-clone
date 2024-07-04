@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .header-link {
+        @apply p-1.5 rounded border border-black border-opacity-0 hover:border-white hover:border-opacity-100
+    }
+    
+    .added-to-cart {
+        @apply flex text-teal-700 text-[15px] items-center mb-2 opacity-0
+    }
+
+    .added-to-cart-visible {
+        @apply flex text-teal-700 text-[15px] items-center mb-2 opacity-100
+    }
+    .cart-links {
+        @apply text-sky-700 cursor-pointer hover:text-red-600 ml-1
+    }
+    .payment-grid {
+        @apply grid grid-cols-payment-grid text-[15px] mb-[9px]
+    }
+}
