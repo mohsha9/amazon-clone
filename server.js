@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
 const cors = require("cors");
-const { type } = require("os");
+// const { type } = require("os");
 const PORT = 5000;
 
 app.use(express.json());
